@@ -8,5 +8,6 @@ public class FirstTest {
     @Test
     void firstTest() {
         Assertions.assertTrue(true);
+        System.out.println("Passed");
     }
 }
