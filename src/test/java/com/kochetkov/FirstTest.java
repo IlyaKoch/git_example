@@ -7,6 +7,7 @@ public class FirstTest {
 
     @Test
     void firstTest() {
-        Assertions.assertTrue(Boolean.TRUE);
+        Assertions.assertTrue(true);
+        System.out.println("Passed");
     }
 }
